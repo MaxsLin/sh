@@ -12,7 +12,8 @@ sudo yum update
 
 sudo yum install -y yum-utils \
 device-mapper-persistent-data \
-lvm2
+lvm2 \
+git
 
 sudo yum-config-manager \
 --add-repo \
